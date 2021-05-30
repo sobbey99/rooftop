@@ -1,18 +1,10 @@
 .work {
     padding: 50px 0 0 0 ;
-    &__title {
-        font-weight: 700;
-        font-size: 24px;
-        color: #90D31C;
-        text-align: center;
+    .section_title {
         margin-bottom: 45px;
     }
-    &__subtitle {
-        font-weight: 900;
-        font-size: 48px;
-        text-align: center;
+    .section_subtitle {
         margin-bottom: 125px;
-
     }
     &-descr {
         padding: 50px 75px 0 65px;
