@@ -1,9 +1,10 @@
 .promo {
     position: relative;
-    min-height: 590px;
+    height: 590px;
     background: url('../img/bg/main.jpg') center center / cover no-repeat;
     color: white;
     padding-top: 18px;
+    z-index: -2;
     &__title {
         font-weight: 400;
         font-size: 58px;
@@ -61,5 +62,16 @@
             color: #fff;
             outline-offset: 0;
         }
+    }
+    .container {
+        height: 100%;
+    }
+    &__offset {
+        height: 190px;
+        background-color: #fff;
+        position: absolute;
+        width: 50%;
+        bottom:0;
+        left: 0;
     }
 }
