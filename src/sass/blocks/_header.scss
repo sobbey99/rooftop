@@ -19,6 +19,9 @@
                     font-size: 15px;
                     color: var(--navigation-textcolor);
                     text-transform: uppercase;
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
