@@ -1,0 +1,94 @@
+.questions {
+    padding-top: 95px;;
+    .section_subtitle {
+        margin-bottom: 75px;
+    }
+    &-list {
+        ul {
+            list-style-type: none;
+            li {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 55px;
+            }
+        }
+        .circle {
+            @include GreenCircle;
+            margin: 5px 20px 0 0 ;
+        }
+        &__text {
+            font-weight: 400;
+            font-size: 17px;
+            span {
+                text-transform: uppercase;
+                display: block;
+                font-weight: 700;
+                font-size: 24px;
+            }
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 95px;
+        border-bottom: 1px solid black;
+    }
+    &__callme {
+        font-weight: 700;
+        font-size: 24px;
+        a {
+            text-decoration: none;
+            color: #90D31C;
+            font-weight: 700;
+            font-size: 36px;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &-form {
+        text-align: center;
+        &__title {
+            font-weight: 700;
+            font-size: 12px;
+            margin-bottom: 55px;
+        }
+        width: 350px;
+        height: 460px;
+        background: linear-gradient(180deg, rgba(0, 133, 255, 0.69) 0%, #90D31C 100%);
+        border-radius: 10px;
+        padding: 35px 40px 115px 40px;
+        input {
+            width: 100%;
+            height: 60px;
+            background-color: #DADADA;
+            padding: 0 15px;
+            outline:0 ;
+            outline-offset: 0;
+            border: none;
+            margin-bottom: 20px;
+            &:focus {
+                border: 3px solid white;
+            }
+        }
+        &__submit {
+            width: 100%;
+            height: 60px;
+            color: white;
+            font-weight: 700;
+            font-size: 12px;
+            background-color: #29A2FA;
+            border: none;
+            outline: 0;
+            outline-offset: 0;
+        }
+    }
+    &__part2 {
+        position: relative;
+    }
+    &__human {
+        position: absolute;
+        left: -345px;
+        top: -20px;
+    }
+}
