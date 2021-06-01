@@ -42,3 +42,8 @@ ValidationForm('.form');
 
 //PHONE MASK
 $('[name="userphone"]').mask("+373 (99) 999-999");
+
+//MODAL WINDOW CLOSE ELEMENT
+$('.modal-thankyou__close').on('click', function() {
+    $('#thankyou').fadeOut();
+});
