@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+    .promo__title {
+        font-size: 49px;
+    }
+    .services__image img {
+        transform: none;
+        width: 100%;
+        }
+    .services-card__subtitle {
+        font-size: 42px;
+    }
+    .house__title {
+        font-size: 36px;
+    }
+    .services-card {
+        min-height: 495px;
+    }
+    .services__image {
+        height: 300px;
+    }
+    .work .section_subtitle {
+        margin-bottom: 60px;
+    }
+    .work .section_title {
+        margin-bottom: 25px;
+    }
+    .work {
+        padding-top: 90px;
+    }
+    .about-counting {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .about-counting__item p {
+        font-size: 18px;
+    }
+    .questions__human {
+        z-index: -1;
+        opacity: .85;
+    }
+    .background {
+        min-height: auto;
+    }
+
+    .work .container {
+        max-width: none;
+        padding: 0;
+    }
+
+    .questions-list__text span {
+        font-size: 21px;
+    }
+
+    .work__grid {
+        grid-template-rows: 460px;
+        grid-auto-rows: 460px;
+    }
+    .about-grid {
+        gap: 45px 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header__phone a {
+        width: 135px;
+        font-size: 16px;
+    }
+    .header {
+        .container {
+            max-width: none;
+            padding: 0 15px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 776px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+}
