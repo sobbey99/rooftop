@@ -47,3 +47,15 @@ $('[name="userphone"]').mask("+373 (99) 999-999");
 $('.modal-thankyou__close').on('click', function() {
     $('#thankyou').fadeOut();
 });
+
+$('.hamburger').on('click', function() {
+    $('.header-mobile__menu').toggleClass('header-mobile__menu_active');
+})
+
+$('.header-mobile__menu__close').on('click', function() {
+    $('.header-mobile__menu').toggleClass('header-mobile__menu_active');
+})
+
+$('.header-mobile__menu ul li a').on('click', function() {
+    $('.header-mobile__menu').toggleClass('header-mobile__menu_active');
+})
